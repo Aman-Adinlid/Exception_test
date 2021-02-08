@@ -10,7 +10,7 @@ public class Examples {
 
     public static void main(String[] args) {
         List<String> content = Arrays.asList("Hello", "World");
-        File url = new File(File.pathSeparator);
+        File url = new File("Exception_test.iml");
         write(url, content);
 
         for (String string : read(url)) {
